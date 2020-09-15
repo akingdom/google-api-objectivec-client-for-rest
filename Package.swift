@@ -769,23 +769,6 @@ let package = Package(
                 .headerSearchPath("Utilities")
             ]
         ),
-        .testTarget(
-            name: "GoogleAPIClientForRESTTests",
-            dependencies: [
-                "GoogleAPIClientForRESTCore"
-            ],
-            path: "Source/Tests",
-            exclude: [
-                "CompiledTestNoARC.m"
-            ],
-            sources: [
-                ".",
-                "TestingSvc"
-            ],
-            cSettings: [
-                .headerSearchPath("TestingSvc")
-            ]
-        ),
         // Targets for all the Services.
         .target(
             name: "GoogleAPIClientForREST_AbusiveExperienceReport",
