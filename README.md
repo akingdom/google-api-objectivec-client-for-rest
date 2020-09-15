@@ -47,3 +47,6 @@ with some remote services, it also needs
 
 Other useful classes for Mac and iOS developers are available in the
 [Google Toolbox for Mac](https://github.com/google/google-toolbox-for-mac).
+
+---
+Tests removed
